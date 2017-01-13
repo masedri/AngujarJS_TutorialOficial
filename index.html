@@ -1,0 +1,28 @@
+<html ng-app="phonecatApp">
+<head>
+	<link rel="stylesheet" type="text/css" href="app/app.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="app/app.animations.css" />
+</head>
+<body>
+
+	<div class="view-container">
+		<div ng-view class="view-frame"></div>
+	</div>
+	<script src="https://use.fontawesome.com/c4da8fdc3e.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="node_modules/angular-route/angular-route.js"></script>
+	<script src="node_modules/angular-resource/angular-resource.js"></script>
+	<script src="app/app.module.js"></script>
+	<script src="app/app.config.js"></script>
+	<script src="phone-list/phone-list.module.js"></script>
+	<script src="phone-list/phone-list.component.js"></script>
+	<script src="phone-detail/phone-detail.module.js"></script>
+	<script src="phone-detail/phone-detail.component.js"></script>
+	<script src="core/checkmark/core.module.js"></script>
+	<script src="core/checkmark/checkmark.filter.js"></script>
+	<script src="core/phone/phone.module.js"></script>
+	<script src="core/phone/phone.service.js"></script>
+	<script src="node_modules/angular-animate/angular-animate.js"></script>
+</body>
+</html>
